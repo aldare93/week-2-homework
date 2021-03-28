@@ -1,0 +1,130 @@
+* {
+    margin:0;
+    padding:0;  
+  }
+  
+  .nav {
+    text-align: right;
+  }
+
+  a {
+    color: white;
+  }
+
+  #atlassian {
+    color: #221d1b;
+  }
+  
+  body {
+    position: relative;
+    font-family: "Courier New", sans-serif;
+    font-size: 20px;
+    background-color: #dbd6d3;
+    color: #221d1b;
+  }
+  
+  h1 {
+    margin: 20px;
+    padding-bottom: 20px;
+  }
+
+  .nav {
+    color: white;
+  }
+
+  p {
+      margin: 20px;
+      line-height: 1.75rem;
+  }
+  
+  main {
+    padding: 100px 0;
+    display: flex;
+  }
+
+  .description {
+    display: inline-flex;
+    width: 50%;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .description {
+      width: 100%
+    }
+    }
+
+  .van {
+    display: flex;
+    width: 50%;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .van {
+      display: none;
+    }
+    }
+
+  .van img {
+    width: 300px;
+  }
+  
+  li {
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  header,
+  footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #2a2661;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #2a2661;
+  }
+  
+  header {
+    position: fixed;
+    border-bottom: 10px solid #DDAF94;
+  }
+  
+  footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #4F4846;
+    color: #FDF8F5;    
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #DDAF94;
+    background-color:  #E8CEBF;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  
+ 
